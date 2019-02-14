@@ -1,1 +1,1 @@
-print(nihal)
+print("nihal")
