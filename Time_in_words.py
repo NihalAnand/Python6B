@@ -1,4 +1,4 @@
-mins = {
+minute = {
     1:"one minute",
     2:"two minutes",
     3:"three minutes",
@@ -51,6 +51,6 @@ m = int(input())
 if m == 0:
     print(hours[h] + " o' clock")
 elif m <= 30:
-    print (mins[m] + " past " + hours[h])
+    print (minute[m] + " past " + hours[h])
 else:
-    print (mins[60-m] + ' to ' + hours[h+1])
+    print (minute[60-m] + ' to ' + hours[h+1])
